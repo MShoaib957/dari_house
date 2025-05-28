@@ -12,13 +12,13 @@ export const Cart: React.FC = () => {
 
   if (!isOpen) return null;
 
+  // comment it otut
   return (
     <div className="fixed inset-0 z-50 overflow-hidden">
       <div
         className="absolute inset-0 bg-black bg-opacity-50 transition-opacity"
         onClick={closeCart}
       />
-
       <div className="absolute inset-y-0 right-0 max-w-full flex">
         <div className="relative w-screen max-w-md">
           <div className="h-full flex flex-col bg-white shadow-xl overflow-y-auto">
